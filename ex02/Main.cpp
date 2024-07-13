@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Main.cpp                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: yugao <yugao@student.42madrid.com>         +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/07/13 13:02:28 by yugao             #+#    #+#             */
+/*   Updated: 2024/07/13 13:02:29 by yugao            ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <iostream>
 #include "Array.hpp"
 
@@ -18,8 +30,8 @@ int main(int, char**)
     {
         Array<int> tmp = numbers;
         Array<int> test(tmp);
-        tmp.print(); // add.
-        test.print(); //add.
+        //tmp.print(); // add.
+        //test.print(); //add.
     }
     std::cout << "--------------------------\n";
 
